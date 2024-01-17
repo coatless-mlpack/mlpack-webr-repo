@@ -10,12 +10,13 @@ In webR, install the `mlpack` package by using:
 webr::install("mlpack", repos = "https://coatless-mlpack.github.io/mlpack-webr-repo/")
 ```
 
-## Example
-
-You can find the example script run in [test-mlpack-webr-r-bindings.R](test-mlpack-webr-r-bindings.R).
-
 For best results, we suggest running the script in the [webR REPL Editor pinned to v0.2.2 of webR](https://webr.r-wasm.org/v0.2.2/).
 
+![Demonstration of installing a custom webR package within the webR REPL environment](figures/webr-repl-install-mlpack-custom-repo.png)
+
+## Example
+
+You can find an example script that fits a linear regression and computes predictions with MLPACK and R's routines here: [test-mlpack-webr-r-bindings.R](test-mlpack-webr-r-bindings.R).
 
 ## Structure of the repo
 
